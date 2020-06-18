@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Signup_page</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="Signup_page.css">
+
+</head>
+<body>
+
+<div class="container">
+  <label for="Sign up" class="text"><h1>Sign up</h1></label>
+  <form action="/action_page.php">
+
+    <input type="text" placeholder="   Name" id="usrname" name="usrname" required>
+
+    <input type="text" name="Email" placeholder="&#64; Email" title="Your email address is required" required >
+
+
+    <input type="password" id="psw" name="psw" placeholder= "&#128273;  password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+
+    <div class="text">
+      <label for="CPP"  >By clicking on Sign up, you agree to terms &<br> conditions and privacy policy</label><br><br>
+    </div>
+
+
+    <input type="submit"  value="Sign up" >
+
+    <div class="text">
+        <label for="AHA" >Alredy have an account? <a href="#" class="log">Log in now</a></label><br><br>
+    </div>
+  </form>
+
+</body>
+</html>
